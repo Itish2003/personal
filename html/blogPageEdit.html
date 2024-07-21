@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/blogPage/blogPage.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itish Srivastava</title>
+</head>
+<body>
+    <div id="flex-container">
+        <form action="/v1/blogpostedit" method="post" class="combined-form">
+            <div class="child1">
+                <label for="title" style="font-size:20px;"><b>Title:</b></label>
+                <input type="text" id="title" name="title" value="{{.Title}}">
+            </div>
+            <div class="child2">
+                <label for="content" style="font-size:20px;"><b>Content:</b></label>
+                <textarea id="content" name="content">{{.Content}}</textarea>
+            </div>
+            <div align="center">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

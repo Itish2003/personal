@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../css/blogPage/blogPageDone.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itish Srivastava</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <h1>{{.Title}}</h1>
+            </div>
+            <div class="mark">{{.CreatedAt}}</div>
+        </div>
+        <div>
+            <pre>{{.Content}}
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, quam voluptatibus rerum autem ullam ex temporibus eum. Repellendus nisi praesentium quidem, at sit a adipisci tempora? Necessitatibus, hic! Iste fugit, sequi magni impedit porro nam et? Qui eaque magni illo id deleniti repellat rem, non esse quasi iste culpa vel impedit quidem, labore ipsa amet officiis itaque aspernatur? Porro labore nobis unde aliquam dolore!
+            </pre>
+        </div>
+        <div>
+            <a href="/v1/blogpostedit?title={{.Title}}">Edit</a>
+        </div>
+    </div>
+</body>
+
+</html>

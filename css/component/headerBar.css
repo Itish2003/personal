@@ -1,0 +1,27 @@
+#headerBar {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    border: 2px solid red;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:rgba(228, 220, 220, 0.799);
+    color:black;
+}
+
+#menu {
+    color:#36b53a;
+    display: flex;
+    flex-flow: row nowrap; /* Explicitly set flex-direction to row */
+    margin-right:20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#webname{
+    margin-left:15px;
+}

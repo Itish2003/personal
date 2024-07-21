@@ -1,0 +1,16 @@
+#workEXP{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap-reverse;
+    min-height:150px;
+    margin-top:2px;
+    border:3px solid red;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    border:none;
+    text-decoration: none;
+    color:#36b53a;
+}

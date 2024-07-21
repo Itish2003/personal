@@ -1,0 +1,29 @@
+[GIN-debug] GET    /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (2 handlers)
+[GIN-debug] HEAD   /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (2 handlers)
+[GIN-debug] Loaded HTML Templates (9): 
+	- 
+	- blogPageEdit.html
+	- signup.html
+	- signupDone.html
+	- blogPage.html
+	- blogPageDone.html
+	- index.html
+	- login.html
+	- loginDone.html
+
+[GIN-debug] GET    /v1/home                  --> itish.github.io/service.HomePage (2 handlers)
+[GIN-debug] GET    /v1/signup                --> itish.github.io/service.SignUpPage (2 handlers)
+[GIN-debug] GET    /v1/signupdone            --> itish.github.io/service.SignUpDone (2 handlers)
+[GIN-debug] POST   /v1/signup                --> itish.github.io/controller.SignUp (2 handlers)
+[GIN-debug] GET    /v1/login                 --> itish.github.io/service.LoginPage (2 handlers)
+[GIN-debug] GET    /v1/logindone             --> itish.github.io/service.LoginDone (2 handlers)
+[GIN-debug] POST   /v1/login                 --> itish.github.io/controller.Login (2 handlers)
+[GIN-debug] GET    /v1/blogpost              --> itish.github.io/service.BlogPost (2 handlers)
+[GIN-debug] GET    /v1/blogpostdone          --> itish.github.io/service.BlogPostDone (2 handlers)
+[GIN-debug] GET    /v1/blogpostedit          --> itish.github.io/service.BlogEditPage (2 handlers)
+[GIN-debug] POST   /v1/blogpost              --> itish.github.io/controller.BlogCreate (2 handlers)
+[GIN-debug] POST   /v1/blogpostedit          --> itish.github.io/controller.BlogEdit (2 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT="8000"
+[GIN-debug] Listening and serving HTTP on :8000
